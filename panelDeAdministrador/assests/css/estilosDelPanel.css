@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "monserrat";
+	src: url("Montserrat-Light.ttf");
+  }
+body{
+ font-size: 15px !important;
+ font-family: "monserrat";
+}
+.imagen-zona{
+  position:relative;
+  left: 130px;
+}
+.help-block{
+  color:#B1ACAB ;
+}
+.cursor-pointer{
+  cursor:pointer;
+}
+.login-form{
+	position: relative;
+	top: 100px;
+}
+@media (max-width: 800px) {
+	.imagen-zona{
+    position:relative;
+    left: 45px;
+  }
+  }

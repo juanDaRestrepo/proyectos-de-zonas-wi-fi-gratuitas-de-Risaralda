@@ -1,0 +1,276 @@
+
+@font-face {
+	font-family: "monserrat";
+	src: url("Montserrat-MediumItalic.ttf");
+  }
+  body{
+	  font-family:"monserrat" !important;
+  }
+.dropdownMenu{
+	width: 80%;
+	margin-bottom: 3px;
+	
+	
+	
+}
+
+.contenedor-dropdownContent{
+	border-style: outset ;
+}
+.title{
+	padding: 7px 5px;
+	
+	color: black;
+	margin-bottom: 0;
+}
+.title:hover{
+	background-color: white;
+}
+.dropdownButton:hover{
+	cursor: pointer;
+}
+.dropdownButton > p .fa{
+	text-align: center;
+}
+.dropdownContent ul{
+	margin: 0;
+	padding: 0 5px;
+}
+
+.dropdownButton{
+	display: flex;
+	flex-direction: row;
+	align-content:space-evenly;
+	
+}
+.icono-dropdown{
+	margin-left: 15px;
+	margin-top: 8px;
+}
+.dropdownContent{
+	
+	background-color: #fff;
+	margin-top: -1px;
+}
+.dropdownContent ul li{
+	list-style: none;
+	padding: 5px 0;
+}
+.dropdownContent ul li a{
+	text-decoration: none;
+}
+
+
+#map{
+	
+	height: 600px;
+	
+}
+
+
+
+.imagenDeZona{
+	padding-top: 7px;
+	padding-right: 7px;
+}
+.form-zona{
+	background-color: #ccc;
+	border-style: inset;
+}
+.menu{
+	height: 60px;
+}
+.contenedor-mapa-nav{
+	margin-top: 20px;
+}
+
+
+.menu{
+	background-color: #0072bb;
+	height: 150px;
+	border-bottom: #cccccc;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	
+}
+.contenedor-titulo{
+	
+	color:#000000;
+}
+
+.contenedor-titulo{
+	display: flex;
+	flex-direction: row-reverse;
+	position:fixed;
+	justify-content: space-evenly;
+}
+.logo-governacion{
+	display:inline-block;
+	width: 150px;
+	height: 60px;
+	position:relative;
+	
+	left: 25px;
+}
+
+.titulo-principal{
+	position:relative;
+	top: 40px;
+	
+}	
+.contenedor-mapa-nav{
+	position:relative;
+	top:140px;
+}
+
+.formulario-info{
+	position:relative;
+	top: 20px;
+	right: 5px;
+}
+
+.zona{
+	color:#727070;
+}
+.zona:hover{
+	color:#0072bb;
+}
+.iconoMenuMostrar{
+	display:none;
+}
+.iconoMenuOcultar{
+	display:none;
+}
+.contenedor-selects{
+	display:none;
+}
+@media only screen and (max-width:800px){
+	.zona{
+		color:#838282;
+	}
+	.zona:hover{
+		color:#0072bb;
+	}
+	
+	.iconoMenuMostrar{
+		display:block;
+		width: 300px !important;
+		border-radius: 10px;
+		background-color: #0072bb;
+		z-index: 20000;
+		top:95px;
+		position:fixed;
+		margin-bottom: 10px;
+		opacity:0.85;
+	}
+	.iconoMenuOcultar{
+		display:block;
+		width: 300px !important;
+		border-radius: 10px;
+		background-color: #0072bb;
+		z-index: 20000;
+		top:95px;
+		position:fixed;
+		margin-bottom: 10px;
+		opacity:0.85;
+	}
+	.logo-governacion{
+		
+		width: 120px;
+		height: 120px;
+		position:relative;
+		top:2px;
+		left:2px;
+	}
+	
+	#map{
+		
+		height: 300px !important;
+		
+	}
+	.imagenNoDisponible{
+		height: 300px;
+	}
+	.imagenDeZona{
+		
+		height: 300px;
+	}
+	.dropdownMenu{
+		display:none;
+		
+	}
+	.titulo-principal{
+		font-size: 20px;
+		position:relative;
+		top: 15px;
+		
+			
+		
+	
+	}
+	.contenedor-titulo{
+		display: flex;
+		flex-direction: row-reverse;
+		position:fixed;
+
+	}
+	.menu{
+		background-color: #0072bb;
+		height: 80px;
+		display: flex;
+		flex-direction: row-reverse;
+		opacity:0.9;
+	}
+	.contenedor-mapa-nav{
+		position:relative;
+		top:20px;
+	}
+
+	.margin-del-menu{
+		position:relative;
+		top:-30px;
+	}
+	.formulario-info{
+		position:relative;
+		bottom:10px;
+		left: 1px;
+	}
+	.contenedor-dropDown{
+		position:relative;
+		top: -10px;
+	}
+	.icono-dropdown-zonas{
+		position:relative;
+		bottom:2px;
+		left:5px;
+		width: 25px !important;
+		height: 25px !important;
+		color:antiquewhite
+	}
+	.contenedor-selects{
+		margin-top: 80px;
+	}
+	#select-municipios{
+		width: 230px;
+		border-radius: 3px;
+	}
+	#select-zona{
+		width: 230px;
+border-radius: 3px;
+	}
+
+	.contenedor-selects{
+		display:block;
+		border:#ccc;
+		background-color:#0072bb ;
+		border-radius:8px;
+		
+		
+	}
+	.selects-movil{
+		position:relative;
+		left: 60px;
+	}
+}
+
